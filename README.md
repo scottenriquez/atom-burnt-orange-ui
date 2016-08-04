@@ -1,5 +1,5 @@
-# Atom burnt orange theme
+# Atom Burnt Orange Theme
 
-A burnt orange theme for Atom created by a UTCS alumnus.
+A burnt orange theme for Atom created by a University of Texas alumnus. Feel free to submit a pull request!
 
-![](https://f.cloud.github.com/assets/671378/2265086/c6897dba-9e7b-11e3-945d-551cac610717.png)
+Screenshot coming soon...
