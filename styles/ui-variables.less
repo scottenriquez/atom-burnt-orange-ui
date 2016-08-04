@@ -1,9 +1,19 @@
-// Colors
+@very-light-gray: #c5c8c6;
+@light-gray: #969896;
+@gray: #373b41;
+@dark-gray: #282a2e;
+@very-dark-gray: #0c0d0e;
+@red: #ff5050;
+@gold: #e6ac00;
+@dark-burnt-orange: #804000;
+@burnt-orange: #cc6600;
+@orange: #ffd1b3;
+@light-orange: #f0c674;
 
-@text-color: #aaa;
+@text-color: @burnt-orange;
 @text-color-subtle: #555;
 @text-color-highlight: #fff;
-@text-color-selected: @text-color-highlight;
+@text-color-selected: white;
 
 @text-color-info: #5293d8;
 @text-color-success: #2BDA77;
@@ -21,17 +31,17 @@
 @background-color-warning: #ffaa2c;
 @background-color-error: #c00;
 @background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: #4182C4;
+@background-color-selected: @burnt-orange;
 
-@app-background-color: #333;
+@app-background-color: @very-dark-gray;
 
-@base-background-color: lighten(@tool-panel-background-color, 5%);
+@base-background-color: @very-dark-gray;
 @base-border-color: rgba(0, 0, 0, 0.5);
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: rgba(0, 0, 0, 0.5);
 
-@input-background-color: #212224;
+@input-background-color: @dark-gray;
 @input-border-color: @base-border-color;
 
 @tool-panel-background-color: #1d1f21;
@@ -51,9 +61,9 @@
 @button-background-color-selected: #5c6064;
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: #222;
+@tab-bar-background-color: @dark-burnt-orange;
 @tab-bar-border-color: darken(@tab-background-color-active, 10%);
-@tab-background-color: #333;
+@tab-background-color: @burnt-orange;
 @tab-background-color-active: #222;
 @tab-border-color: #484848;
 
